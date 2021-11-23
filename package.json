@@ -1,0 +1,36 @@
+{
+  "name": "werewolf-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "nodecg": {
+    "compatibleRange": "^1.0.0",
+    "dashboardPanels": [
+      {
+        "width": "3",
+        "name": "werewolf-games",
+        "title": "人狼ゲーム",
+        "file": "index.html"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": "800",
+        "height": "600"
+      }
+    ],
+    "assetCategories": [
+      {
+        "name": "werewolf-games",
+        "title": "werewolf-games",
+        "allowedTypes": ["jpg", "jpeg", "gif", "png"]
+      }
+    ]
+  }
+}
