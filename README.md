@@ -10,7 +10,7 @@ $ nodecg install Boda-Kosuzu/nodecg-werewolf-games
 
 ## Dashboard
 
-![]()
+![](https://github.com/Boda-Kosuzu/nodecg-werewolf-games/blob/main/readme/readme_1.png)
 
 この一覧はAssetsのwerefolf-game上に任意の画像をアップロードすることで表示されます。
 また、名前はそのファイル名をそのまま利用しています。
@@ -22,7 +22,7 @@ $ nodecg install Boda-Kosuzu/nodecg-werewolf-games
 
 ## Scenes
 
-![]()
+![](https://github.com/Boda-Kosuzu/nodecg-werewolf-games/blob/main/readme/readme_2.png)
 
 利用している立ち絵の都合で見えていませんが、背景には役職にちなんだアイコンが表示されています。
 
