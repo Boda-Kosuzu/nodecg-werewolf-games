@@ -1,5 +1,5 @@
 {
-  "name": "werewolf-games",
+  "name": "nodecg-werewolf-games",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "dashboardPanels": [
       {
         "width": "3",
-        "name": "werewolf-games",
+        "name": "nodecg-werewolf-games",
         "title": "人狼ゲーム",
         "file": "index.html"
       }
@@ -27,8 +27,8 @@
     ],
     "assetCategories": [
       {
-        "name": "werewolf-games",
-        "title": "werewolf-games",
+        "name": "nodecg-werewolf-games",
+        "title": "nodecg-werewolf-games",
         "allowedTypes": ["jpg", "jpeg", "gif", "png"]
       }
     ]
