@@ -1,0 +1,7 @@
+.playerList-classList {
+  display: flex;
+}
+
+.playerList-classList > * + * {
+  margin-left: 15px;
+}
