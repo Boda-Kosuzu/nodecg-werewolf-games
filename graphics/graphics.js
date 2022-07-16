@@ -32,7 +32,7 @@ window.onload = () => {
 
   const createPlayerName = name => {
     const playerName = document.createElement('div')
-    playerName.innerText = name
+    playerName.innerText = name.replace(/\.(png|jpg|jpeg|gif)/g, '')
     playerName.classList.add('player-name')
 
     return playerName
@@ -57,7 +57,7 @@ window.onload = () => {
       li.appendChild(createBackIcon(player.position))
       li.appendChild(createPosition(player.position))
       li.appendChild(createPlayerImage(player.url))
-      li.appendChild(createPlayerName(player.name.replace(/\.(png|jpg|jpeg|gif)/g, '')))
+      li.appendChild(createPlayerName(player.name))
 
       playerList.appendChild(li)
     });
