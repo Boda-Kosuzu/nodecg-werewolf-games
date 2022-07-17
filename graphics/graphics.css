@@ -45,8 +45,11 @@ body {
 .player + .player {
   margin-left: calc((100vw - 60px - 265px * 6) / 5);
 }
-.player:nth-child(7) {
+.player:nth-child(6n + 1) {
   margin-left: 0;
+}
+.player:nth-child(n + 7) {
+  margin-top: calc(100vh - 50px - 424px * 2);
 }
 .icon {
   width: 100%;
